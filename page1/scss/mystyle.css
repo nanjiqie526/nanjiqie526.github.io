@@ -1,0 +1,323 @@
+/* line 35, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+body, section, form, header, ul, li, input, button, img {
+  margin: 0;
+  padding: 0;
+  border: none; }
+
+/* line 41, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+body {
+  font-size: 62.5%;
+  font-family: 'open sans', sans-serif;
+  text-align: center;
+  max-width: 100em;
+  margin: 0 auto; }
+
+/* line 49, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+section.hero {
+  color: white;
+  background-image: url(../images/IMG_0521.jpg);
+  background-size: cover;
+  padding-bottom: 10em; }
+  /* line 56, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+  section.hero header img {
+    float: left;
+    width: 160px;
+    height: 50px;
+    margin: 1em 0 0 1em; }
+  /* line 62, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+  section.hero header ul {
+    float: right;
+    margin: 1em 1em 0 0; }
+    /* line 65, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+    section.hero header ul li {
+      list-style: none;
+      float: left;
+      margin: 2em;
+      font: 1.4em;
+      font-family: sans-serif;
+      padding: 0.5em; }
+      /* line 73, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+      section.hero header ul li:last-child {
+        border: 1px solid white;
+        border-radius: 2px; }
+        /* line 76, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+        section.hero header ul li:last-child i {
+          padding-right: 0.5em; }
+  /* line 83, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+  section.hero h1 {
+    clear: both;
+    font-size: 4em;
+    text-align: center;
+    padding-top: 2em;
+    font-family: sans-serif; }
+  /* line 90, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+  section.hero h2 {
+    font-size: 2em;
+    text-align: center;
+    font-family: sans-serif; }
+  /* line 95, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+  section.hero form {
+    text-align: center; }
+    /* line 97, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+    section.hero form input {
+      width: 20em;
+      height: 3em;
+      border-radius: 2px 0px 0px 2px;
+      background: rgba(255, 255, 255, 0.3);
+      vertical-align: bottom; }
+    /* line 104, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+    section.hero form button {
+      background-color: #eb8c00;
+      color: white;
+      height: 3em;
+      padding: 0.5em;
+      border-radius: 0px 2px 2px 0px;
+      margin-left: -2px; }
+
+/* line 116, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+section.numbers {
+  max-width: 100em;
+  margin: 0 auto;
+  position: relative;
+  top: -4em; }
+  /* line 121, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+  section.numbers ul {
+    border: 1px solid #ccc;
+    margin: 0 10%; }
+    /* line 124, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+    section.numbers ul:after {
+      clear: both;
+      display: block;
+      content: ''; }
+    /* line 129, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+    section.numbers ul li {
+      background: white;
+      list-style: none;
+      float: left;
+      width: 25%;
+      position: relative;
+      font-family: sans-serif;
+      text-align: center;
+      padding: 1em 0; }
+      /* line 138, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+      section.numbers ul li h3 {
+        font-size: 1.4em;
+        font-weight: bold;
+        line-height: 1em; }
+      /* line 143, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+      section.numbers ul li h4 {
+        font-weight: normal;
+        line-height: 0.5; }
+      /* line 147, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+      section.numbers ul li:after {
+        content: '';
+        background: #ccc;
+        display: block;
+        width: 1px;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0; }
+      /* line 158, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+      section.numbers ul li:last-child:after {
+        display: none; }
+
+/* line 165, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+section.howitworks {
+  max-width: 100em;
+  margin: 0 auto;
+  margin: 0 10%;
+  border-bottom: 1px solid #f2f2f2; }
+  /* line 170, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+  section.howitworks h3 {
+    font-weight: bold;
+    font-size: 1.4em;
+    position: relative; }
+    /* line 19, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+    section.howitworks h3:after {
+      content: '';
+      background: #ccc;
+      width: 3em;
+      left: 50%;
+      margin-left: -1.5em;
+      height: 0.15em;
+      position: absolute;
+      bottom: -4px; }
+  /* line 173, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+  section.howitworks ul {
+    width: 80%;
+    margin: auto;
+    margin-top: 2em;
+    list-style: none;
+    padding-bottom: 4em; }
+    /* line 7, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+    section.howitworks ul:after {
+      content: ' ';
+      clear: both;
+      display: block; }
+    /* line 180, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+    section.howitworks ul li {
+      width: 33.3%;
+      float: left;
+      position: relative; }
+      /* line 185, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+      section.howitworks ul li:after {
+        content: "";
+        background: #ccc;
+        width: calc(100% - 2.8em);
+        left: 50%;
+        margin-left: 1.4em;
+        height: 1px;
+        display: block;
+        position: absolute;
+        top: 1.4em; }
+      /* line 200, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+      section.howitworks ul li:last-child:after {
+        display: none; }
+      /* line 204, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+      section.howitworks ul li span.order {
+        display: block;
+        font-size: 1.4em;
+        line-height: 2;
+        font-weight: bold;
+        color: #ccc;
+        border: 1px solid #ccc;
+        border-radius: 2em;
+        width: 2em;
+        height: 2em;
+        margin: 0 auto; }
+      /* line 217, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+      section.howitworks ul li i.fa {
+        display: block;
+        margin: 0.2em;
+        margin-top: 0.5em;
+        font-style: normal;
+        font-size: 3em; }
+        /* line 224, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+        section.howitworks ul li i.fa.fa-heart, section.howitworks ul li i.fa.fa-star, section.howitworks ul li i.fa.fa-gift {
+          color: #eb8c00; }
+      /* line 228, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+      section.howitworks ul li h4 {
+        font-weight: bold;
+        color: #666;
+        font-size: 1.2em; }
+      /* line 233, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+      section.howitworks ul li p {
+        width: 60%;
+        margin: auto;
+        color: #aaa; }
+
+/* line 242, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+section.whychooseus {
+  max-width: 100em;
+  margin: 0 auto;
+  padding: 4em 0;
+  border-bottom: 1px solid #f2f2f2; }
+  /* line 246, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+  section.whychooseus h3 {
+    font-weight: bold;
+    font-size: 1.4em;
+    position: relative;
+    margin-top: 0px; }
+    /* line 19, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+    section.whychooseus h3:after {
+      content: '';
+      background: #ccc;
+      width: 3em;
+      left: 50%;
+      margin-left: -1.5em;
+      height: 0.15em;
+      position: absolute;
+      bottom: -4px; }
+  /* line 250, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+  section.whychooseus ul {
+    list-style: none;
+    padding-top: -2em; }
+    /* line 7, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+    section.whychooseus ul:after {
+      content: ' ';
+      clear: both;
+      display: block; }
+    /* line 254, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+    section.whychooseus ul li {
+      float: left;
+      margin-top: 4em;
+      text-align: left;
+      margin-left: 10%;
+      width: 40%; }
+      /* line 260, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+      section.whychooseus ul li i {
+        float: left;
+        font-size: 2em;
+        color: #eb8c00;
+        width: 10%; }
+      /* line 266, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+      section.whychooseus ul li div {
+        float: left;
+        display: block;
+        width: 90%; }
+        /* line 270, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+        section.whychooseus ul li div label {
+          font-weight: bold;
+          color: #666;
+          font-size: 1.2em; }
+        /* line 275, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+        section.whychooseus ul li div p {
+          margin-top: 0.1em;
+          color: #aaa; }
+
+/* line 284, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+section.people {
+  padding: 4em 0; }
+  /* line 287, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+  section.people div.tab a {
+    border: 1px solid #6d6e71;
+    padding: 0.5em 1.5em;
+    margin-left: -1.2em; }
+    /* line 291, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+    section.people div.tab a.active {
+      background: #6d6e71;
+      color: white; }
+    /* line 295, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+    section.people div.tab a:hover {
+      background: #404041;
+      color: white; }
+  /* line 301, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+  section.people div.qoute {
+    margin-top: 2em;
+    padding: 0 0 -1em 0; }
+    /* line 304, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+    section.people div.qoute span {
+      font-size: 4em;
+      color: #ccc; }
+    /* line 308, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+    section.people div.qoute p {
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: -1em;
+      font-size: 1.2em;
+      color: #6d6e71; }
+  /* line 318, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+  section.people div.ceo {
+    margin-bottom: 2em; }
+    /* line 320, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+    section.people div.ceo span {
+      display: block; }
+      /* line 322, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+      section.people div.ceo span.name {
+        font-weight: bold; }
+  /* line 328, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+  section.people img {
+    width: 6em;
+    height: 6em;
+    border-radius: 6em;
+    opacity: 0.3;
+    margin: 1em; }
+    /* line 334, /Users/twer/Documents/nanjiqie526.github.io/scss/mystyle.scss */
+    section.people img.active {
+      opacity: 1;
+      border: #eb8c00 1px solid;
+      padding: 1px; }
+
+/*# sourceMappingURL=mystyle.css.map */
